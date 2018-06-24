@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/programmes/c++/Sorokin/Deque/deque.h
+cstring
+-
+cassert
+-
+
+D:/programmes/c++/Sorokin/Deque/main.cpp
+iostream
+-
+vector
+-
+deque.h
+D:/programmes/c++/Sorokin/Deque/deque.h
+
